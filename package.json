@@ -1,0 +1,19 @@
+{
+  "name": "react-hooks-boiler-plate",
+  "version": "1.0.0",
+  "description": "a boiler plate for creating applications using React Hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpkanderton/react-hooks-boiler-plate.git"
+  },
+  "author": "jandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpkanderton/react-hooks-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/jpkanderton/react-hooks-boiler-plate#readme"
+}
