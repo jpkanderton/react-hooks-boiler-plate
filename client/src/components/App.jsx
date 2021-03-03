@@ -1,21 +1,19 @@
 import React from 'react';
 import axios from 'axios';
 
-const { useState } = React;
-
-const App = () =>{
-  const [hooksExample, setHooksExample] = useState('This is a React Hooks example');
-  const [counter, setCounter] = useState(0);
-
-  const handleClick = () => setCounter(counter + 1);
-
-  return (
-    <div>
-      <div onClick = {handleClick}>
-        {hooksExample} has been clicked {counter} times
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {stateItem: 'I am from the state'};
+  }
+  render() {
+    return (
+      <div>
+        <div>this your first react component</div>
+        <div>{this.state.stateItem}</div>
       </div>
-    </div>
-  )
+    )
+  }
 }
 
 export default App;
